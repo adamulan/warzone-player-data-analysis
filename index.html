@@ -14272,7 +14272,7 @@ a.anchor-link {
 </ul>
 <h2 id="Dataset">Dataset<a class="anchor-link" href="#Dataset">&#182;</a></h2><p>In order to do the analysis that I wanted to do I needed a set of player profile data that was labeled whether the player was a hacker or not and after some looking I realized that there was no such dataset available. I knew that there are a lot of websites that you can go on to look at your stats so I had to find one of those sites and find an api to pull data from. The site that I used is probably the one most people use to look at their stats and it is <a href="https://cod.tracker.gg/warzone">cod.tracker.gg</a>. The only problem is that they had no publicy documented APIs to use so it took more digging to eventually find the API endpoint that they use for players. I wrote the script below to pull player data and add it to a csv file and this can be used as is as long as you add a valid username to the player variable.</p>
 <blockquote><p><strong><em>NOTE:</em></strong>  If the username of the player also has an identifier tag after it (not all usernames do) you need to make sure to include the whole thing ex. <code>player = 'timthetatman#4119609'</code></p>
-<p><strong><em>NOTE:</em></strong>  This only works for PC players</p>
+<p><strong><em>NOTE:</em></strong>  This only works for PC players not Xbox or PlayStation players</p>
 </blockquote>
 
 </div>
